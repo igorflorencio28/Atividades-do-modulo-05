@@ -1,0 +1,24 @@
+.conteiner {
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+}
+
+.box1 {
+    background-color: red;
+    
+}
+
+.box2 {
+    background-color: rgb(234, 0, 255);
+}
+
+.box3 {
+    background-color: green;
+}
+
+.box1, .box2, .box3 {
+    padding: 5px;
+}

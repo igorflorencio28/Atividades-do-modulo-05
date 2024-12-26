@@ -1,0 +1,29 @@
+.cabeçalho {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+        justify-content: space-between;
+}
+
+.links {
+    display: flex;
+    justify-content: flex-end;
+    display: none;
+}
+
+img {
+    width: 500px;
+    display: block;
+    margin-bottom: 10px;
+}
+
+em {
+    padding: 5px;
+    background-color: aqua;
+    border-style: solid;
+    border-radius: 10px;
+    display: inline-block;
+    font-weight: bold;
+}
+

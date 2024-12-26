@@ -1,0 +1,38 @@
+<!--                                    Aula 05 - Atividade 01
+ 
+        Crie uma página HTML simples e aplique diferentes valores das propriedades CSS display e visibility
+        para manipular a exibição de elementos na página.
+
+        Objetivo: Aplicar um estilo básicoa um parágrafo usando CSS inline.
+-->
+
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Atividade 01</title>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <header>
+            <div class="cabeçalho">
+                <div class="logo"><h1>CSgames</h1></div>
+                <nav>
+                    <div class="links">     <!-- Os links estão removidos pelo CSS, através da propriedade Display:none; -->
+                        <a href="#">Jogos</a>
+                        <a href="#">Quem Somos nós</a>
+                        <a href="#">Contato</a>
+                    </div>
+                </nav>
+            </div>
+        </header>
+        <main>
+            <h2>VENHA PARA A MAIS NOVA LOJA DE GAMES VIRTUAL!</h1>
+            <p>
+            <img src="imagens/jogo.webp" alt="Controle">    <!-- Apliquei o display: block; para imagem fica acima do parágrafo -->
+            Você, que procura jogos parar se divertir com seus amigos, venha para a CSgames! <br>
+            Aqui você vai encontrar qualquer jogo que você quiser com o <em>preço que você quer</em> <!-- Apliquei o display:inline para que fique alinhado -->.</p>
+        </main>
+    </body>
+</html>
